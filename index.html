@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>פלקון סוככים | פתרונות הצללה מתקדמים</title>
+    <title>פלקן סוככים | פתרונות הצללה מתקדמים</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
     <style>
@@ -67,8 +67,8 @@
             <div class="flex justify-between h-16 items-center">
                 <div class="flex-shrink-0 flex items-center">
                     <a href="#" class="flex items-center gap-2">
-                        <img src="https://static.wixstatic.com/media/8e0487_93b7517c22fd42d8b6afbe54725c5bab~mv2.png/v1/fill/w_110,h_111,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8e0487_93b7517c22fd42d8b6afbe54725c5bab~mv2.png" alt="לוגו פלקון סוככים" class="h-12 w-auto">
-                        <span class="text-2xl font-bold text-gray-800">פלקון <span class="text-brand">סוככים</span></span>
+                        <img src="https://static.wixstatic.com/media/8e0487_93b7517c22fd42d8b6afbe54725c5bab~mv2.png/v1/fill/w_110,h_111,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8e0487_93b7517c22fd42d8b6afbe54725c5bab~mv2.png" alt="לוגו פלקן סוככים" class="h-12 w-auto">
+                        <span class="text-2xl font-bold text-gray-800">פלקן <span class="text-brand">סוככים</span></span>
                     </a>
                 </div>
                 <div class="hidden md:flex space-x-8 space-x-reverse">
@@ -131,7 +131,11 @@
                 </div>
                 <div class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
                     <div class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md overflow-hidden">
-                        <img src="IMG-20260123-WA0071.jpg" alt="עומר סוככים - עבודה ראשית" class="w-full h-full object-cover">
+                        <!-- Hero Image - Updated -->
+                        <img src="WhatsApp Image 2025-08-26 at 22.20_edited.jpg" 
+                             onerror="this.onerror=null; this.src='https://placehold.co/600x500/1e3a8a/ffffff?text=פלקן+סוככים';" 
+                             alt="עומר סוככים - עבודה ראשית" 
+                             class="w-full h-full object-cover">
                     </div>
                 </div>
             </div>
@@ -208,58 +212,148 @@
 
             <!-- Carousel Container -->
             <div class="relative group">
-                <!-- Buttons -->
-                <button onclick="slide('right')" class="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 lg:-ml-12 z-10 bg-white p-3 rounded-full shadow-lg text-brand hover:bg-gray-100 transition focus:outline-none">
+                <!-- Buttons (Corrected Directions for RTL) -->
+                <!-- Left Button (Next in RTL means going Left visually) -->
+                <button onclick="slide('next')" class="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 lg:-ml-12 z-10 bg-white p-3 rounded-full shadow-lg text-brand hover:bg-gray-100 transition focus:outline-none">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
                 </button>
-                <button onclick="slide('left')" class="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 lg:-mr-12 z-10 bg-white p-3 rounded-full shadow-lg text-brand hover:bg-gray-100 transition focus:outline-none">
+                <!-- Right Button (Prev in RTL means going Right visually) -->
+                <button onclick="slide('prev')" class="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 lg:-mr-12 z-10 bg-white p-3 rounded-full shadow-lg text-brand hover:bg-gray-100 transition focus:outline-none">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                 </button>
 
                 <!-- Slider Track -->
                 <div id="slider" class="flex overflow-x-auto gap-6 pb-8 snap-x snap-mandatory scroll-smooth no-scrollbar">
                     
-                    <!-- Item 1 -->
+                    
+
+                    <!-- NEW Item 5 -->
                     <div class="min-w-[85%] md:min-w-[45%] lg:min-w-[32%] snap-center group/card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition duration-300">
                         <div class="h-64 bg-gray-200 overflow-hidden relative">
-                            <img src="IMG-20260123-WA0085.jpg" alt="סוכך כניסה לבית" class="w-full h-full object-cover transform group-hover/card:scale-110 transition duration-500">
+                             <img src="IMG-20260123-WA0078(1).jpg" 
+                                  onerror="this.onerror=null; this.src='https://placehold.co/600x400/1e3a8a/ffffff?text=פרויקט+5';"
+                                  alt="סוכך חניה צמוד קיר" class="w-full h-full object-cover transform group-hover/card:scale-110 transition duration-500">
                         </div>
                         <div class="p-6">
-                            <h3 class="text-lg font-bold text-gray-900 mb-2">סוכך כניסה מעוצב</h3>
-                            <p class="text-gray-600 text-sm mb-4">פתרון אלגנטי לכניסה לבית, מגן מפני גשם ושמש ושומר על דלת הכניסה יבשה.</p>
+                            <h3 class="text-lg font-bold text-gray-900 mb-2">סוכך חניה צמוד קיר</h3>
+                            <p class="text-gray-600 text-sm mb-4">ניצול מקסימלי של השטח הצמוד למבנה, עם תמיכה חזקה ומינימום עמודים.</p>
                         </div>
                     </div>
 
-                    <!-- Item 2 -->
+                    <!-- NEW Item 6 -->
                     <div class="min-w-[85%] md:min-w-[45%] lg:min-w-[32%] snap-center group/card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition duration-300">
                         <div class="h-64 bg-gray-200 overflow-hidden relative">
-                            <img src="IMG-20260123-WA0083.jpg" alt="סוכך חניה כפול" class="w-full h-full object-cover transform group-hover/card:scale-110 transition duration-500">
+                             <img src="IMG-20260123-WA0077.jpg" 
+                                  onerror="this.onerror=null; this.src='https://placehold.co/600x400/1e3a8a/ffffff?text=פרויקט+6';"
+                                  alt="סוכך חניה לבניין" class="w-full h-full object-cover transform group-hover/card:scale-110 transition duration-500">
                         </div>
                         <div class="p-6">
-                            <h3 class="text-lg font-bold text-gray-900 mb-2">הגנה כפולה לרכבים</h3>
-                            <p class="text-gray-600 text-sm mb-4">קונסטרוקציה רחבה המכסה שני רכבים, שומרת על צבע הרכב ומונעת התחממות יתר.</p>
+                            <h3 class="text-lg font-bold text-gray-900 mb-2">הצללה לבנייני מגורים</h3>
+                            <p class="text-gray-600 text-sm mb-4">פתרון אסתטי ואחיד לחניות דיירים, שומר על ערך הרכבים והנכס.</p>
                         </div>
                     </div>
 
-                    <!-- Item 3 -->
+                    <!-- NEW Item 7 -->
                     <div class="min-w-[85%] md:min-w-[45%] lg:min-w-[32%] snap-center group/card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition duration-300">
                         <div class="h-64 bg-gray-200 overflow-hidden relative">
-                            <img src="IMG-20260123-WA0082.jpg" alt="פרגולה תלויה" class="w-full h-full object-cover transform group-hover/card:scale-110 transition duration-500">
+                             <img src="IMG-20260123-WA0076(1).jpg" 
+                                  onerror="this.onerror=null; this.src='https://placehold.co/600x400/1e3a8a/ffffff?text=פרויקט+7';"
+                                  alt="סוכך חניה נופי" class="w-full h-full object-cover transform group-hover/card:scale-110 transition duration-500">
                         </div>
                         <div class="p-6">
-                            <h3 class="text-lg font-bold text-gray-900 mb-2">סוכך חצר ומרפסת</h3>
-                            <p class="text-gray-600 text-sm mb-4">הרחבת אזור המחיה החיצוני עם קירוי איכותי המאפשר ישיבה בחוץ בכל עונה.</p>
+                            <h3 class="text-lg font-bold text-gray-900 mb-2">סוכך חניה פתוח לנוף</h3>
+                            <p class="text-gray-600 text-sm mb-4">עיצוב אוורירי שמשתלב עם הסביבה ולא חוסם את שדה הראייה.</p>
                         </div>
                     </div>
 
-                    <!-- Item 4 (Duplicate for demo scrolling) -->
+                    <!-- NEW Item 8 -->
                     <div class="min-w-[85%] md:min-w-[45%] lg:min-w-[32%] snap-center group/card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition duration-300">
                         <div class="h-64 bg-gray-200 overflow-hidden relative">
-                             <img src="IMG-20260123-WA0081.jpg" alt="סוכך נוסף" class="w-full h-full object-cover transform group-hover/card:scale-110 transition duration-500">
+                             <img src="IMG-20260123-WA0075(1).jpg" 
+                                  onerror="this.onerror=null; this.src='https://placehold.co/600x400/1e3a8a/ffffff?text=פרויקט+8';"
+                                  alt="קירוי כניסה וחניה" class="w-full h-full object-cover transform group-hover/card:scale-110 transition duration-500">
                         </div>
                         <div class="p-6">
-                            <h3 class="text-lg font-bold text-gray-900 mb-2">פתרונות לעסקים</h3>
-                            <p class="text-gray-600 text-sm mb-4">התאמה אישית לכל עסק ומפעל, ליצירת אזורי עבודה וצל נעימים.</p>
+                            <h3 class="text-lg font-bold text-gray-900 mb-2">קירוי משולב לכניסה</h3>
+                            <p class="text-gray-600 text-sm mb-4">הגנה רציפה מהחניה ועד דלת הבית, לנוחות מקסימלית בחורף ובקיץ.</p>
+                        </div>
+                    </div>
+
+                    <!-- NEW Item 9 -->
+                    <div class="min-w-[85%] md:min-w-[45%] lg:min-w-[32%] snap-center group/card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition duration-300">
+                        <div class="h-64 bg-gray-200 overflow-hidden relative">
+                             <img src="IMG-20260123-WA0042.jpg" 
+                                  onerror="this.onerror=null; this.src='https://placehold.co/600x400/1e3a8a/ffffff?text=פרויקט+9';"
+                                  alt="סוכך במרחב ציבורי" class="w-full h-full object-cover transform group-hover/card:scale-110 transition duration-500">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-bold text-gray-900 mb-2">פתרונות למרחב הציבורי</h3>
+                            <p class="text-gray-600 text-sm mb-4">סוככים מסיביים ועמידים במיוחד המתאימים למוסדות ושטחים משותפים.</p>
+                        </div>
+                    </div>
+
+                    <!-- NEW Item 10 -->
+                    <div class="min-w-[85%] md:min-w-[45%] lg:min-w-[32%] snap-center group/card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition duration-300">
+                        <div class="h-64 bg-gray-200 overflow-hidden relative">
+                             <img src="IMG-20260123-WA0040.jpg" 
+                                  onerror="this.onerror=null; this.src='https://placehold.co/600x400/1e3a8a/ffffff?text=פרויקט+10';"
+                                  alt="רצף חניות" class="w-full h-full object-cover transform group-hover/card:scale-110 transition duration-500">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-bold text-gray-900 mb-2">מערכות הצללה מתמשכות</h3>
+                            <p class="text-gray-600 text-sm mb-4">כיסוי שטחים נרחבים בצורה אחידה ואסתטית, אידיאלי לחניונים.</p>
+                        </div>
+                    </div>
+
+                    <!-- NEW Item 11 -->
+                    <div class="min-w-[85%] md:min-w-[45%] lg:min-w-[32%] snap-center group/card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition duration-300">
+                        <div class="h-64 bg-gray-200 overflow-hidden relative">
+                             <img src="IMG-20260123-WA0038.jpg" 
+                                  onerror="this.onerror=null; this.src='https://placehold.co/600x400/1e3a8a/ffffff?text=פרויקט+11';"
+                                  alt="סוכך בחצר פרטית" class="w-full h-full object-cover transform group-hover/card:scale-110 transition duration-500">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-bold text-gray-900 mb-2">סוכך מעוצב לחצר</h3>
+                            <p class="text-gray-600 text-sm mb-4">משתלב בטבעיות עם גדרות אבן ועץ, ליצירת פינת חמד מוצלת.</p>
+                        </div>
+                    </div>
+
+                    <!-- NEW Item 12 -->
+                    <div class="min-w-[85%] md:min-w-[45%] lg:min-w-[32%] snap-center group/card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition duration-300">
+                        <div class="h-64 bg-gray-200 overflow-hidden relative">
+                             <img src="IMG-20260123-WA0037.jpg" 
+                                  onerror="this.onerror=null; this.src='https://placehold.co/600x400/1e3a8a/ffffff?text=פרויקט+12';"
+                                  alt="חניה לרכב בודד" class="w-full h-full object-cover transform group-hover/card:scale-110 transition duration-500">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-bold text-gray-900 mb-2">פתרון קומפקטי לרכב</h3>
+                            <p class="text-gray-600 text-sm mb-4">סוכך מותאם אישית לחניות צרות, להגנה מקסימלית במינימום הפרעה.</p>
+                        </div>
+                    </div>
+
+                    <!-- NEW Item 13 (Variant) -->
+                    <div class="min-w-[85%] md:min-w-[45%] lg:min-w-[32%] snap-center group/card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition duration-300">
+                        <div class="h-64 bg-gray-200 overflow-hidden relative">
+                             <img src="IMG-20260123-WA0085(2).jpg" 
+                                  onerror="this.onerror=null; this.src='https://placehold.co/600x400/1e3a8a/ffffff?text=פרויקט+13';"
+                                  alt="פרויקט נוסף" class="w-full h-full object-cover transform group-hover/card:scale-110 transition duration-500">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-bold text-gray-900 mb-2">פתרון הצללה מתקדם</h3>
+                            <p class="text-gray-600 text-sm mb-4">שילוב של פונקציונליות ועיצוב להגנה אופטימלית.</p>
+                        </div>
+                    </div>
+
+                    <!-- NEW Item 14 (Variant) -->
+                    <div class="min-w-[85%] md:min-w-[45%] lg:min-w-[32%] snap-center group/card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition duration-300">
+                        <div class="h-64 bg-gray-200 overflow-hidden relative">
+                             <img src="IMG-20260123-WA0040 (1).jpg" 
+                                  onerror="this.onerror=null; this.src='https://placehold.co/600x400/1e3a8a/ffffff?text=פרויקט+14';"
+                                  alt="פרויקט נוסף" class="w-full h-full object-cover transform group-hover/card:scale-110 transition duration-500">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-bold text-gray-900 mb-2">פתרון הצללה לחניון</h3>
+                            <p class="text-gray-600 text-sm mb-4">מערכת הצללה מתקדמת לחניונים ושטחים נרחבים.</p>
                         </div>
                     </div>
 
@@ -281,12 +375,12 @@
 
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-12">
-                <span class="inline-block px-3 py-1 text-xs font-semibold tracking-wider text-blue-900 uppercase bg-yellow-400 rounded-full mb-3 shadow-lg">בלעדי לפלקון</span>
+                <span class="inline-block px-3 py-1 text-xs font-semibold tracking-wider text-blue-900 uppercase bg-yellow-400 rounded-full mb-3 shadow-lg">בלעדי לפלקן</span>
                 <h2 class="text-3xl font-extrabold sm:text-4xl mb-4">
                     אלפי לקוחות מרוצים לא טועים
                 </h2>
                 <p class="text-xl text-blue-100 max-w-2xl mx-auto">
-                    הצטרפו למשפחת פלקון וגלו למה אנחנו הבחירה מספר 1 של בעלי בתים ועסקים בצפון.
+                    הצטרפו למשפחת פלקן וגלו למה אנחנו הבחירה מספר 1 של בעלי בתים ועסקים בצפון.
                 </p>
             </div>
 
@@ -298,7 +392,7 @@
                             ★★★★★
                         </div>
                     </div>
-                    <p class="text-lg italic mb-4 text-blue-50">"השירות של עומר וצוות פלקון היה יוצא דופן. הסוכך שהתקינו לנו במרפסת שינה את כל חווית האירוח שלנו. הכל עומד יציב גם ברוחות חזקות. ממליצים בחום!"</p>
+                    <p class="text-lg italic mb-4 text-blue-50">"השירות של עומר וצוות פלקן היה יוצא דופן. הסוכך שהתקינו לנו במרפסת שינה את כל חווית האירוח שלנו. הכל עומד יציב גם ברוחות חזקות. ממליצים בחום!"</p>
                     <div class="flex items-center">
                         <div class="h-10 w-10 rounded-full bg-blue-500 flex items-center justify-center font-bold text-white text-lg">ד</div>
                         <div class="mr-3">
@@ -332,7 +426,7 @@
                             ★★★★★
                         </div>
                     </div>
-                    <p class="text-lg italic mb-4 text-blue-50">"מקצוענות, אמינות ומחיר הוגן. פלקון סוככים הם הכתובת לכל מי שרוצה ראש שקט. העבודה בוצעה במהירות ובניקיון מופתי. תודה רבה על השירות האדיב!"</p>
+                    <p class="text-lg italic mb-4 text-blue-50">"מקצוענות, אמינות ומחיר הוגן. פלקן סוככים הם הכתובת לכל מי שרוצה ראש שקט. העבודה בוצעה במהירות ובניקיון מופתי. תודה רבה על השירות האדיב!"</p>
                     <div class="flex items-center justify-center md:justify-start">
                         <div class="h-10 w-10 rounded-full bg-purple-500 flex items-center justify-center font-bold text-white text-lg">ש</div>
                         <div class="mr-3 text-right">
@@ -414,6 +508,7 @@
                     <div>
                         <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-brand hover-bg-brand focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand transition">
                             שריון שיחת ייעוץ
+                        
                         </button>
                     </div>
                 </div>
@@ -425,15 +520,14 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
             <div class="mb-4 md:mb-0">
                 <div class="flex items-center gap-2 mb-2">
-                    <img src="https://static.wixstatic.com/media/8e0487_93b7517c22fd42d8b6afbe54725c5bab~mv2.png/v1/fill/w_110,h_111,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8e0487_93b7517c22fd42d8b6afbe54725c5bab~mv2.png" alt="לוגו פלקון סוככים" class="h-8 w-auto">
-                    <span class="text-2xl font-bold">פלקון סוככים</span>
+                    <img src="https://static.wixstatic.com/media/8e0487_93b7517c22fd42d8b6afbe54725c5bab~mv2.png/v1/fill/w_110,h_111,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8e0487_93b7517c22fd42d8b6afbe54725c5bab~mv2.png" alt="לוגו פלקן סוככים" class="h-8 w-auto">
+                    <span class="text-2xl font-bold">פלקן סוככים</span>
                 </div>
                 <p class="text-gray-400 text-sm">© 2024 כל הזכויות שמורות. איכות, אמינות ושירות.</p>
             </div>
             <div class="flex space-x-6 space-x-reverse">
-                <a href="#" class="text-gray-400 hover:text-white transition">פייסבוק</a>
-                <a href="#" class="text-gray-400 hover:text-white transition">וואטסאפ</a>
-                <a href="#" class="text-gray-400 hover:text-white transition">אינסטגרם</a>
+                <a href="https://www.facebook.com/share/1AZm2KyoQ1/" target="_blank" class="text-gray-400 hover:text-white transition">פייסבוק</a>
+                <a href="https://katzr.net/417cd2" target="_blank" class="text-gray-400 hover:text-white transition">וואטסאפ</a>
                 <a href="https://katzr.net/417cd2" target="_blank" class="text-[#25D366] hover:text-green-400 transition flex items-center gap-1">
                     <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.008-.57-.008-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
                     ווטסאפ
@@ -455,18 +549,29 @@
         function handleForm(e) {
             e.preventDefault();
             const name = document.getElementById('name').value;
-            alert('תודה ' + name + '! קיבלנו את הפנייה שלך. נחזור אליך בהקדם.');
+            const phone = document.getElementById('phone').value;
+            const address = document.getElementById('address').value;
+
+            // تجهيز الرسالة (اختياري، يعتمد على ما إذا كان الرابط يدعم النص)
+            // const text = `שלום, אשמח לתיאום פגישת ייעוץ.\nשם: ${name}\nטלפון: ${phone}\nכתובת: ${address}`;
+            // const encodedText = encodeURIComponent(text);
+
+            // فتح رابط الواتساب مباشرة
+            window.open('https://katzr.net/417cd2', '_blank');
+            
             e.target.reset();
         }
 
-        // Slider Logic
+        // Slider Logic (Corrected for RTL)
         function slide(direction) {
             const slider = document.getElementById('slider');
-            const scrollAmount = 350; // Adjust scroll distance
+            const scrollAmount = 350; 
             
-            if (direction === 'left') {
+            if (direction === 'next') {
+                // Moving Next in RTL means scrolling to the LEFT (negative X)
                 slider.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
             } else {
+                // Moving Prev means scrolling to the RIGHT (positive X)
                 slider.scrollBy({ left: scrollAmount, behavior: 'smooth' });
             }
         }
@@ -490,7 +595,7 @@
             loadingIndicator.classList.remove('hidden');
 
             const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
-            const systemPrompt = "אתה יועץ מומחה של חברת 'פלקון סוככים'. ענה בעברית, קצר ולעניין.";
+            const systemPrompt = "אתה יועץ מומחה של חברת 'פלקן סוככים'. ענה בעברית, קצר ולעניין.";
 
             const payload = {
                 contents: [{
